@@ -1,0 +1,11 @@
+def main():
+    
+    cel=float(input("enter celsius: "))
+    farh=temp(cel)
+    print(f"the temp in farhenheit is {farh}")
+
+def temp(celsius):
+    farh = (celsius*9/5)+32
+    return farh
+    
+main()

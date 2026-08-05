@@ -1,0 +1,7 @@
+def main():
+    name = input("what is your name?").capitalize()
+    age = int(input("what is your age?"))
+    print(f"Hello {name}!")
+    print(f"you are {age} years old")
+main()
+    

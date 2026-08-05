@@ -1,0 +1,12 @@
+def main():
+    
+    item=int(input("enter price of one item: "))
+    quantity=int(input("enter no of item: "))
+    total=bill(item,quantity)
+    print(f"the total bill is ${total}")
+
+def bill(price,quantity):
+    return (price*quantity)
+
+    
+main()

@@ -1,0 +1,11 @@
+def main():
+    
+    length=float(input("enter length: "))
+    breadth=float(input("enter breadth: "))
+    result=area(length,breadth)
+    print(f"the area is {result}")
+
+def area(l,b):
+    return l*b
+    
+main()

@@ -1,6 +1,6 @@
 score = int(input("Enter your score: "))
 
-if score >=90 and score<=100:
+if 90 <= score <=100:
     print("Your grade is A")
 elif score>=80 and score<=90:
     print("Your grade is B")

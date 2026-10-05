@@ -1,4 +1,6 @@
-num = list(map(int, input("enter numbers:").split()))
-unique=list(set(num))#removing duplicates
-unique.sort()
-print("second smallest number is:", unique[1])
+num = list(map(int,input("enter numbers: ").split()))
+element = int(input("enter element to search: "))
+if element in num:
+    print("element exists") 
+else:
+    print("element does not exist")      

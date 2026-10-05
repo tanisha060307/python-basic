@@ -1,10 +1,12 @@
-numbers = [10,20,3,40,50]
-even = 0
-odd = 0
-for n in numbers:
-    if n%2==0:
-        even += 1
-    else:
-        odd += 1
-print("even numbers is ", even)
-print("odd numbers is ", odd)
+numbers = [10,7,5,11,20,13,8,91]
+print("prime numbers are:")
+for n in numbers: 
+    if n<2:
+        continue
+    prime = True
+    for i in range(2,n):
+        if n%i==0:
+            prime = False
+            break
+    if prime:
+        print(n)

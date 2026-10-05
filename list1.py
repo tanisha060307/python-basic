@@ -3,8 +3,8 @@ even = 0
 odd = 0
 for n in numbers:
     if n%2==0:
-        even += n
+        even += 1
     else:
-        odd += n
-print("sum of even numbers is ", even)
-print("sum of odd numbers is ", odd)
+        odd += 1
+print("even numbers is ", even)
+print("odd numbers is ", odd)

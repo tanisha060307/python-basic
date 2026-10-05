@@ -1,15 +1,8 @@
-numbers = [10,-7,5,-1,0,13,8,91]
-positive = []
-negative = []
-zero = []
+numbers = [10,10,30,50,60,80]
+unique=[]
 for n in numbers:
-    if n>0:
-        positive.append(n)
-    elif n<0:
-        negative.append(n)
-    else:
-        zero.append(n)
+    if n not in unique:
+        unique.append(n)
+print("oroginal list:",numbers)
+print("list after removing duplicates:",unique)
 
-print("Positive numbers:", positive)
-print("Negative numbers:", negative)
-print("Zero numbers:", zero)

@@ -1,18 +1,10 @@
-text = input("enter a string: ")
-upper = 0
-lower = 0
-digit = 0
-special = 0
-for ch in text:
-    if ch.isupper():
-        upper += 1
-    elif ch.islower():
-        lower += 1
-    elif ch.isdigit():
-        digit += 1
+numbers = [10,20,3,40,50]
+even = 0
+odd = 0
+for n in numbers:
+    if n%2==0:
+        even += n
     else:
-        special += 1
-print("uppercase letters: ", upper)
-print("lowercase letters: ", lower)
-print("digits: ", digit)
-print("special characters: ", special)
+        odd += n
+print("sum of even numbers is ", even)
+print("sum of odd numbers is ", odd)

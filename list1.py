@@ -1,8 +1,4 @@
-numbers = [10,10,30,50,60,80]
-unique=[]
-for n in numbers:
-    if n not in unique:
-        unique.append(n)
-print("oroginal list:",numbers)
-print("list after removing duplicates:",unique)
-
+num = list(map(int, input("enter numbers:").split()))
+unique=list(set(num))#removing duplicates
+unique.sort()
+print("second smallest number is:", unique[1])
